@@ -13,3 +13,19 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200501161504176.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTYxNzQx,size_16,color_FFFFFF,t_70)
 
+# upload-img
+请按要求书写一个图片上传的弹窗组件，弹窗的样式要求如下：
+1、样式要求
+（1）宽： 668px,  高： 608px, 圆角5px， 边框1px solid #ccc
+
+（2）弹窗垂直居中， 左右居中
+
+（3）标题栏高 ：50px ,   右边的x不能使用图片，请使用css3画出, 标题文字颜色：红色
+
+（4）列表元素的高：110px ， 宽:110px， 边框 1px solid #ccc
+
+（5）中间“添加”按钮的图片地址：https://p1.pstatp.com/large/3ecd0004b6bdeff4c48d
+
+    整体样式效果如下图所示：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200501214609413.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTYxNzQx,size_16,color_FFFFFF,t_70)
