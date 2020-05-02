@@ -29,3 +29,34 @@
     整体样式效果如下图所示：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200501214609413.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTYxNzQx,size_16,color_FFFFFF,t_70)
+# money
+设计一个红包生成的模拟器，要求实现如下功能设计：
+设计需求
+
+1. 页面上支持自定义红包输入的个数和金额，数值类型不能为空且必须大于1，效果如图一所示
+
+2. 点击发送红包按钮，可以进入红包生成的loading页面，效果如图二所示，模态框的宽高为300*450px，垂直居中页面，包含必要的头像和文案，拆红包按钮可以围绕中轴线做旋转动画
+
+3. 点击拆红包按钮后，会有一个向上的开红包的动画，根据前面输入的个数和金额生成红包获取列表，红包生成规则见附注。
+
+4. 金额最高的作为“手气最佳”进行标注，见图三中的领取榜单所示
+
+5. 从生成的红包列表中随机取出一个值作为你抢到的红包值，见图三中头像下的数字所示
+
+6. 点击右上角的关闭按钮，可以关闭弹框，同时清空领取榜单里的记录，方便下次重新生成
+
+红包生成规则
+
+1. 红包的数值是随机的，并且数值的分布近似于正态分布。
+
+2. 所有人都能分到红包，不会出现红包数值为0的情况，额度在0.01和(剩余平均值*2)之间。
+
+3. 所有人的红包数值加起来等于支付的金额
+
+4. 整体效果参考动态图，可以根据自身能力的情况侧重完成所擅长的环节(css页面，js交互，生成逻辑等)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200502170454995.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTYxNzQx,size_16,color_FFFFFF,t_70)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020050217042871.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTYxNzQx,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200502170442750.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTYxNzQx,size_16,color_FFFFFF,t_70)
+
